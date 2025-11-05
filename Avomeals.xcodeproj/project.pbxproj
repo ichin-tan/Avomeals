@@ -16,6 +16,11 @@
 			path = Avomeals;
 			sourceTree = "<group>";
 		};
+		720CD2CF2EBAD3C300B96396 /* workflows */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = workflows;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 		720CD2582EBAD30000B96396 = {
 			isa = PBXGroup;
 			children = (
+				720CD26F2EBAD39C00B96396 /* .github */,
 				720CD2632EBAD30000B96396 /* Avomeals */,
 				720CD2622EBAD30000B96396 /* Products */,
 			);
@@ -43,6 +49,14 @@
 				720CD2612EBAD30000B96396 /* Avomeals.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		720CD26F2EBAD39C00B96396 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				720CD2CF2EBAD3C300B96396 /* workflows */,
+			);
+			path = .github;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
